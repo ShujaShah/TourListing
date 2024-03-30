@@ -37,15 +37,27 @@
       "id": "98443197"
     },
     {
-      "id": "f58b",
-      "cityName": "Bijuesca",
+      "id": "9b76",
+      "cityName": "Alcazar de San Juan",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2024-03-30T18:28:02.372Z",
-      "notes": "city",
+      "date": "2024-03-30T18:33:12.734Z",
+      "notes": "something needs to go off",
       "position": {
-        "lat": "41.52502957323801",
-        "lng": "-1.9555664062500002"
+        "lat": "39.26628442213066",
+        "lng": "-3.2299804687500004"
+      }
+    },
+    {
+      "id": "81bb",
+      "cityName": "Farrera",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-03-30T18:33:29.347Z",
+      "notes": "fareera",
+      "position": {
+        "lat": "42.48830197960227",
+        "lng": "1.3183593750000002"
       }
     }
   ]
