@@ -59,7 +59,7 @@ const initialState = {
   cities: [],
   isLoading: false,
   currentCity: {},
-  error,
+  error: '',
 };
 function CitiesProvider({ children }) {
   // const [cities, setCities] = useState([]);
