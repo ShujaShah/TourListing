@@ -59,13 +59,14 @@ const initialState = {
   cities: [],
   isLoading: false,
   currentCity: {},
+  error,
 };
 function CitiesProvider({ children }) {
   // const [cities, setCities] = useState([]);
   // const [isLoading, setIsLoading] = useState(false);
   // const [currentCity, setCurrentCity] = useState({});
 
-  const [{ cities, isLoading, currentCity }, dispatch] = useReducer(
+  const [{ cities, isLoading, currentCity, error }, dispatch] = useReducer(
     reducer,
     initialState
   );
@@ -88,6 +89,7 @@ function CitiesProvider({ children }) {
   }, []);
 
   async function getCity(id) {
+    if (Number(id) === currentCity.id) return;
     dispatch({ type: 'loading' });
     try {
       const res = await fetch(`${BASE_URL}/cities/${id}`);
@@ -140,6 +142,7 @@ function CitiesProvider({ children }) {
       value={{
         cities,
         isLoading,
+        error,
         currentCity,
         getCity,
         createCity,
