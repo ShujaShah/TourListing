@@ -35,6 +35,30 @@
         "lng": 13.376933665713324
       },
       "id": "98443197"
+    },
+    {
+      "id": "07de",
+      "cityName": "les Escaldes",
+      "country": "Andorra",
+      "emoji": "🇦🇩",
+      "date": "2024-03-31T18:09:43.414Z",
+      "notes": "something is here",
+      "position": {
+        "lat": "42.47209690919285",
+        "lng": "1.56005859375"
+      }
+    },
+    {
+      "id": "bd29",
+      "cityName": "Bohoyo",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-03-31T18:21:55.367Z",
+      "notes": "sss",
+      "position": {
+        "lat": "40.3130432088809",
+        "lng": "-5.427246093750001"
+      }
     }
   ]
 }
